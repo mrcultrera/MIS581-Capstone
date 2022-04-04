@@ -1,4 +1,8 @@
-The outputs of this project include analyzing daily trading information of thirty tradeable assets back to 2010.  
+The outputs of this project include analyzing daily trading information of thirty tradeable assets back to 2010.
+
+Resource requirements: The used pricing data is posted and available in the project's GitHub repository.  
+Similar pricing data can easily be obtained through many public websites such as Yahoo Finance for thousands of tradeable assets.
+The executable code is written in Python and can utilized by Python interpreters such as Jupyter Notebook.
 
 Section One: Six different moving average strategies were all independently evaluated against a buy and hold strategy 
   with a t-test concluding no significant improvement over a buy and hold strategy.
