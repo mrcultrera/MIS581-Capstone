@@ -1,0 +1,7 @@
+The outputs of this project include analyzing daily trading information of thirty tradeable assets back to 2010.  
+
+Section One: Six different moving average strategies were all independently evaluated against a buy and hold strategy with a t-test concluding no significant improvement over a buy and hold strategy.
+
+Section Two: Four different types of price and volume trends were classified and evaluated with a linear regression model predicting the future price gain in 5, 10, and 20 days for each asset class and all assets together.  Many trend categories were found to be significantly related to the future price movements.
+
+Section Three: Six different neural network models were trained to identify common chart patterns with 7,000 simulated pricing charts.  Over 70,000 pricing charts were mined from the historical pricing data in 3 day iterations with 20, 35, and 50 day timeframes.  Over 3,000 chart pattern occurrences were classified from the historical price charts.  Those occurrences were analyzed with a linear regression model predicting the future price gain in 5, 10, and 20 days for each asset class and all assets together.  Multiple chart patterns were found to be significantly related in each asset class.
